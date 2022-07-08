@@ -4,26 +4,26 @@
 # Exclude all files related to TLA+ Toolbox
 # *.toolbox/**
 
-*.toolbox/*.launch
-*.toolbox/*.pmap
+**/*.toolbox/*.launch
+**/*.toolbox/*.pmap
 
 # TLA+ Toolbox models
-*.toolbox/**/*.tla
-*.toolbox/**/*.out
-*.toolbox/**/*.cfg
+**/*.toolbox/**/*.tla
+**/*.toolbox/**/*.out
+**/*.toolbox/**/*.cfg
 
 # PlusCal
 *.old
 
 # LaTex output
-*.toolbox/*aux
-*.toolbox/*.log
-*.toolbox/*.pdf
-*.toolbox/*.tex
+**/*.toolbox/*aux
+**/*.toolbox/*.log
+**/*.toolbox/*.pdf
+**/*.toolbox/*.tex
 *aux
 *.log
 *.pdf
 *.tex
 
-# Vim backup file
-*~
+# Trying to exclude all the Model run files, might be a bit much
+**/*.toolbox/*Model*/
